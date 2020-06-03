@@ -5,101 +5,113 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Barber Shop</title>
+    <link rel="stylesheet" type="text/css" href="CSS/reset.css" />
+    <link rel="stylesheet" type="text/css" href="CSS/headerFooter.css" />
 </head>
 
 <body>
     <!--Header-->
-    <header>
-        <img alt="Logo da empresa barber shop">
-        <nav>
-            <ul>
-                <li><a href="#">Ainda Não Tem Barba</a></li>
-                <li><a href="#">Barba</a></li>
-                <li><a href="#">Cabelo</a></li>
-                <li><a href="#">Acessórios</a></li>
-            </ul>
-        </nav>
+    <header class="header">
+        <div class="wrapper wr-header wr-section">
+            <figure>
+                <img alt="Logo da empresa barber shop" src="Imagens/barbershopInvertida.png">
+            </figure>
 
-        <div>
-            <input type="text" placeholder="Buscar..." />
-            <a>
-                <img src="#" alt="botao buscar" />
+            <nav class="nav-bar">
+                <ul class="link-list">
+                    <li><a class="font ft-destaque" href="#">Ainda Não Tem Barba ?</a></li>
+                    <li><a class="font" href="#">Barba</a></li>
+                    <li><a class="font" href="#">Cabelo</a></li>
+                    <li><a class="font" href="#">Acessórios</a></li>
+                </ul>
+            </nav>
+
+            <div>
+                <input class="input-search" type="text" placeholder="Buscar..." />
+                <a class="icon-search">
+                    <?xml version="1.0"?><svg fill="#FFFFFF" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24px" height="24px">    <path d="M 9 2 C 5.1458514 2 2 5.1458514 2 9 C 2 12.854149 5.1458514 16 9 16 C 10.747998 16 12.345009 15.348024 13.574219 14.28125 L 14 14.707031 L 14 16 L 20 22 L 22 20 L 16 14 L 14.707031 14 L 14.28125 13.574219 C 15.348024 12.345009 16 10.747998 16 9 C 16 5.1458514 12.854149 2 9 2 z M 9 4 C 11.773268 4 14 6.2267316 14 9 C 14 11.773268 11.773268 14 9 14 C 6.2267316 14 4 11.773268 4 9 C 4 6.2267316 6.2267316 4 9 4 z"/></svg>
+                </a>
+            </div>
+
+            <div class="user-container">
+                <a><img class="user-icon" src="Imagens/user-icon.png" alt="icone avatar" /></a>
+                <div class="user-options">
+                    <a class="font ft-user" href="">Entrar</a>
+                    <a class="font ft-user" href="">Cadastrar</a>
+                </div>
+            </div>
+
+            <a href="">
+                <img class="cart-icon" src="Imagens/cart-icon.png" alt="icone carrinho" />
             </a>
         </div>
-
-        <div>
-            <img src="#" alt="icone avatar" />
-            <div>
-                <a href="">Entrar</a>
-                <a href="">Cadastrar</a>
-            </div>
-        </div>
-
-        <a href="">
-            <img src="#" alt="icone carrinho" />
-        </a>
     </header>
 
     <!--Seção principal-->
     <main>
+        <section class="banner">
+            <img src="#" />
+        </section>
 
     </main>
 
     <!--Footer-->
     <footer>
-        <figure>
-            <img src="#" alt="Logo da empresa barber shop" />
-        </figure>
+        <div class="wrapper wr-section">
+            <figure>
+                <img src="#" alt="Logo da empresa barber shop" />
+            </figure>
 
-        <nav>
-            <ul>
-                <li>
-                    <a href="#">A Empresa</a>
-                </li>
-                <li>
-                    <a href="#">Como Comprar</a>
-                </li>
-                <li>
-                    <a href="#">Politica de Privacidade</a>
-                </li>
-                <li>
-                    <a href="#">Envio da Mercadoria</a>
-                </li>
-                <li>
-                    <a href="#">Troca e Devolução</a>
-                </li>
-            </ul>
-
-            <ul>
-                <li>
-                    <a href="#">Depoimento dos Clientes</a>
-                </li>
-                <li>
-                    <a href="#">Buscar</a>
-                </li>
-                <li>
-                    <a href="#">Mapa do Site</a>
-                </li>
-                <li>
-                    <a href="#">Contato</a>
-                </li>
-            </ul>
-        </nav>
-
-        <div>
-            <h3>Receba Ofertas</h3>
-            <div>
-                <input type="text" placeholder="Digite Seu Email">
-                <input type="submit" value="Inscrever-se" />
-            </div>
-            <nav id="social-icons">
+            <nav>
                 <ul>
-                    <li><a href="#">Facebook</a></li>
-                    <li><a href="#">Instagram</a></li>
-                    <li><a href="#">Twitter</a></li>
-                    <li><a href="#">Youtube</a></li>
+                    <li>
+                        <a href="#">A Empresa</a>
+                    </li>
+                    <li>
+                        <a href="#">Como Comprar</a>
+                    </li>
+                    <li>
+                        <a href="#">Politica de Privacidade</a>
+                    </li>
+                    <li>
+                        <a href="#">Envio da Mercadoria</a>
+                    </li>
+                    <li>
+                        <a href="#">Troca e Devolução</a>
+                    </li>
+                </ul>
+
+                <ul>
+                    <li>
+                        <a href="#">Depoimento dos Clientes</a>
+                    </li>
+                    <li>
+                        <a href="#">Buscar</a>
+                    </li>
+                    <li>
+                        <a href="#">Mapa do Site</a>
+                    </li>
+                    <li>
+                        <a href="#">Contato</a>
+                    </li>
                 </ul>
             </nav>
+
+            <div>
+                <h3>Receba Ofertas</h3>
+                <div>
+                    <input type="text" placeholder="Digite Seu Email">
+                    <input type="submit" value="Inscrever-se" />
+                </div>
+                <nav id="social-icons">
+                    <ul>
+                        <li><a href="#">Facebook</a></li>
+                        <li><a href="#">Instagram</a></li>
+                        <li><a href="#">Twitter</a></li>
+                        <li><a href="#">Youtube</a></li>
+                    </ul>
+                </nav>
+            </div>
         </div>
     </footer>
 </body>
