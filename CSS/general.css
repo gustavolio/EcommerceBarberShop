@@ -21,6 +21,11 @@
     width: 80px;
 }
 
+.active-option {
+    border: 1px solid;
+    border-radius: 8px;
+}
+
 @media (max-width: 1200px) {
     .custom-form-control {
         width: auto !important;

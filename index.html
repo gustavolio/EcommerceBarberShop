@@ -12,37 +12,38 @@
     <link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.css" />
     <script type=text/javascript src="bootstrap/js/bootstrap.js"></script>
 
-    <!-- Persalized styles -->
+    <!-- Custom styles -->
     <link rel="stylesheet" type="text/css" href="css/general.css" />
+
+
 </head>
 
 <body>
     <header>
-
-
         <nav class="navbar navbar-expand-lg navbar-light bg-black">
             <div class="container">
-
-                <a class="navbar-brand text-light" href="#">
+                <a nav-link="home.html" nav-selector="#content" class="navbar-brand text-light" href>
                     <img class="logo-nav-size" src="imagens/barbershopInvertida.png" />
                 </a>
+
                 <button class="navbar-toggler custom-toggler" type="buttom" data-toggle="collapse" data-target="#navbarSite">
+                
                 <span class="navbar-toggler-icon"></span>
             </button>
 
                 <div class="collapse navbar-collapse" id="navbarSite">
                     <ul class="navbar-nav mr-auto">
-                        <li class="nav-item active">
-                            <a class="nav-link text-light font-weight-bold" href="#">Ainda Não Tem Barba?<span class="sr-only">(current)</span></a>
+                        <li class="nav-item">
+                            <a nav-link="nobread.html" nav-selector="#content" class="nav-link text-light font-weight-bold active-option" href>Ainda Não Tem Barba?<span class="sr-only">(current)</span></a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link text-light" href="#">Barba</a>
+                            <a nav-link="bread.html" nav-selector="#content" class="nav-link text-light " href>Barba</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link disabled text-light" href="#">Cabelo</a>
+                            <a nav-link="hair.html" nav-selector="#content" class="nav-link disabled text-light" href>Cabelo</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link disabled text-light" href="#">Acessórios</a>
+                            <a nav-link="accessories.html" nav-selector="#content" class="nav-link disabled text-light" href>Acessórios</a>
                         </li>
                     </ul>
                     <form class="form-inline my-2 my-lg-0">
@@ -71,10 +72,10 @@
     </header>
 
     <main>
-
+        <section id="content"></section>
     </main>
 
-    <footer class="pt-4 my-md-5 pt-md-5 pb-md-5 border-top bg-black">
+    <footer class="pt-4 pt-md-5 pb-md-5 border-top bg-black">
         <div class="container">
             <div class="row">
                 <div class="col custom-col-footer">
@@ -122,6 +123,8 @@
         </div>
     </footer>
 
+    <!-- Custom scripts -->
+    <script type="text/javascript" src="js/navigation.js"></script>
 </body>
 
 </html>
