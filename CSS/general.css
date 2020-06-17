@@ -16,7 +16,11 @@
     outline: none;
 }
 
-.logo-size {
+.logo-nav-size {
     height: auto;
     width: 80px;
 }
+
+.fab-icon {}
+
+.fab-icon-container {}
