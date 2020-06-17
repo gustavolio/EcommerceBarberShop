@@ -21,10 +21,6 @@
     width: 80px;
 }
 
-.fab-icon {}
-
-.fab-icon-container {}
-
 @media (max-width: 1200px) {
     .custom-form-control {
         width: auto !important;
