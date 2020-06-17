@@ -1,119 +1,71 @@
 <!DOCTYPE html>
-<html lang="pt-BR">
+<html lang="en">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Barber Shop</title>
-    <link rel="stylesheet" type="text/css" href="CSS/reset.css" />
-    <link rel="stylesheet" type="text/css" href="CSS/headerFooter.css" />
+    <title>Document</title>
+    <!-- Jquery -->
+    <script type=text/javascript src="js/jquery.js"></script>
+
+    <!-- Bootstrap -->
+    <link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.css" />
+    <script type=text/javascript src="bootstrap/js/bootstrap.js"></script>
+
+    <!-- Persalized styles -->
+    <link rel="stylesheet" type="text/css" href="css/general.css" />
 </head>
 
 <body>
-    <!--Header-->
-    <header class="header">
-        <div class="wrapper wr-header wr-section">
-            <figure>
-                <img alt="Logo da empresa barber shop" src="Imagens/barbershopInvertida.png">
-            </figure>
+    <nav class="navbar navbar-expand-lg navbar-light bg-black">
+        <div class="container">
 
-            <nav class="nav-bar">
-                <ul class="link-list">
-                    <li><a class="font ft-destaque" href="#">Ainda Não Tem Barba ?</a></li>
-                    <li><a class="font" href="#">Barba</a></li>
-                    <li><a class="font" href="#">Cabelo</a></li>
-                    <li><a class="font" href="#">Acessórios</a></li>
-                </ul>
-            </nav>
-
-            <div>
-                <input class="input-search" type="text" placeholder="Buscar..." />
-                <a class="icon-search">
-                    <?xml version="1.0"?><svg fill="#FFFFFF" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24px" height="24px">    <path d="M 9 2 C 5.1458514 2 2 5.1458514 2 9 C 2 12.854149 5.1458514 16 9 16 C 10.747998 16 12.345009 15.348024 13.574219 14.28125 L 14 14.707031 L 14 16 L 20 22 L 22 20 L 16 14 L 14.707031 14 L 14.28125 13.574219 C 15.348024 12.345009 16 10.747998 16 9 C 16 5.1458514 12.854149 2 9 2 z M 9 4 C 11.773268 4 14 6.2267316 14 9 C 14 11.773268 11.773268 14 9 14 C 6.2267316 14 4 11.773268 4 9 C 4 6.2267316 6.2267316 4 9 4 z"/></svg>
-                </a>
-            </div>
-
-            <div class="user-container">
-                <a><img class="user-icon" src="Imagens/user-icon.png" alt="icone avatar" /></a>
-                <div class="user-options">
-                    <a class="font ft-user" href="">Entrar</a>
-                    <a class="font ft-user" href="">Cadastrar</a>
-                </div>
-            </div>
-
-            <a href="">
-                <img class="cart-icon" src="Imagens/cart-icon.png" alt="icone carrinho" />
+            <a class="navbar-brand text-light" href="#">
+                <img class="logo-size" src="imagens/barbershopInvertida.png" />
             </a>
-        </div>
-    </header>
+            <button class="navbar-toggler custom-toggler" type="buttom" data-toggle="collapse" data-target="#navbarSite">
+                <span class="navbar-toggler-icon">
+                </span>
+            </button>
 
-    <!--Seção principal-->
-    <main>
-        <section class="banner">
-            <img src="#" />
-        </section>
-
-    </main>
-
-    <!--Footer-->
-    <footer>
-        <div class="wrapper wr-section">
-            <figure>
-                <img src="#" alt="Logo da empresa barber shop" />
-            </figure>
-
-            <nav>
-                <ul>
-                    <li>
-                        <a href="#">A Empresa</a>
+            <div class="collapse navbar-collapse" id="navbarSite">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link text-light font-weight-bold" href="#">Ainda Não Tem Barba?<span class="sr-only">(current)</span></a>
                     </li>
-                    <li>
-                        <a href="#">Como Comprar</a>
+                    <li class="nav-item">
+                        <a class="nav-link text-light" href="#">Barba</a>
                     </li>
-                    <li>
-                        <a href="#">Politica de Privacidade</a>
+                    <li class="nav-item">
+                        <a class="nav-link disabled text-light" href="#">Cabelo</a>
                     </li>
-                    <li>
-                        <a href="#">Envio da Mercadoria</a>
-                    </li>
-                    <li>
-                        <a href="#">Troca e Devolução</a>
+                    <li class="nav-item">
+                        <a class="nav-link disabled text-light" href="#">Acessórios</a>
                     </li>
                 </ul>
-
-                <ul>
-                    <li>
-                        <a href="#">Depoimento dos Clientes</a>
-                    </li>
-                    <li>
-                        <a href="#">Buscar</a>
-                    </li>
-                    <li>
-                        <a href="#">Mapa do Site</a>
-                    </li>
-                    <li>
-                        <a href="#">Contato</a>
-                    </li>
-                </ul>
-            </nav>
-
-            <div>
-                <h3>Receba Ofertas</h3>
-                <div>
-                    <input type="text" placeholder="Digite Seu Email">
-                    <input type="submit" value="Inscrever-se" />
-                </div>
-                <nav id="social-icons">
-                    <ul>
-                        <li><a href="#">Facebook</a></li>
-                        <li><a href="#">Instagram</a></li>
-                        <li><a href="#">Twitter</a></li>
-                        <li><a href="#">Youtube</a></li>
-                    </ul>
-                </nav>
+                <form class="form-inline my-2 my-lg-0">
+                    <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-link my-2 my-sm-0 text-light" type="submit">
+                        <svg class="bi bi-search" width="1em" height="1em" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                            <path fill-rule="evenodd" d="M10.442 10.442a1 1 0 0 1 1.415 0l3.85 3.85a1 1 0 0 1-1.414 1.415l-3.85-3.85a1 1 0 0 1 0-1.415z"/>
+                            <path fill-rule="evenodd" d="M6.5 12a5.5 5.5 0 1 0 0-11 5.5 5.5 0 0 0 0 11zM13 6.5a6.5 6.5 0 1 1-13 0 6.5 6.5 0 0 1 13 0z"/>
+                          </svg>
+                    </button>
+                    <button class="btn btn-link my-2 my-sm-0 text-light" type="submit">
+                        <svg class="bi bi-person-fill" width="1em" height="1em" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                            <path fill-rule="evenodd" d="M3 14s-1 0-1-1 1-4 6-4 6 3 6 4-1 1-1 1H3zm5-6a3 3 0 1 0 0-6 3 3 0 0 0 0 6z"/>
+                          </svg>
+                    </button>
+                    <button class="btn btn-link my-2 my-sm-0 text-light" type="submit">
+                        <svg class="bi bi-cart-fill" width="1em" height="1em" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                            <path fill-rule="evenodd" d="M0 1.5A.5.5 0 0 1 .5 1H2a.5.5 0 0 1 .485.379L2.89 3H14.5a.5.5 0 0 1 .491.592l-1.5 8A.5.5 0 0 1 13 12H4a.5.5 0 0 1-.491-.408L2.01 3.607 1.61 2H.5a.5.5 0 0 1-.5-.5zM5 12a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm7 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm-7 1a1 1 0 1 0 0 2 1 1 0 0 0 0-2zm7 0a1 1 0 1 0 0 2 1 1 0 0 0 0-2z"/>
+                          </svg>
+                    </button>
+                </form>
             </div>
         </div>
-    </footer>
+    </nav>
+
 </body>
 
 </html>
