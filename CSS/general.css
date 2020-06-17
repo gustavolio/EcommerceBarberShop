@@ -24,3 +24,21 @@
 .fab-icon {}
 
 .fab-icon-container {}
+
+@media (max-width: 1200px) {
+    .custom-form-control {
+        width: auto !important;
+    }
+}
+
+@media (max-width: 576px) {
+    .col.custom-col-footer {
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        flex-basis: auto;
+    }
+    .custom-form-control {
+        width: 177px !important;
+    }
+}
