@@ -24,6 +24,6 @@ document.querySelectorAll('[nav-link]').forEach(link => {
 
 window.onpopstate = e => {
     if (e.state) {
-        navegarViaAjax(window.location.href, e.state.selector, false)
+        navAjax(window.location.href, e.state.selector, false)
     }
 }
