@@ -43,3 +43,44 @@
         width: 177px !important;
     }
 }
+
+.custom-text-color {
+    color: #47525e;
+}
+
+.custom-page-title {
+    justify-content: center;
+}
+
+.btn-custom {
+    background-color: #47525e;
+    font-weight: bold;
+    color: #fff;
+}
+
+.btn-custom:hover {
+    background-color: #28a745;
+    color: #fff;
+}
+
+
+/* -- Produto -- */
+
+.img-prod-size {
+    width: 100%;
+    height: auto;
+}
+
+.img-prod-stars {
+    width: 75%;
+    height: auto;
+}
+
+.prod-title {
+    font-size: 1.2rem;
+}
+
+p.prod-price {
+    font-size: 1.8rem;
+    font-weight: bold;
+}
