@@ -1,7 +1,8 @@
-navAjax("home.html", "#content", true); //Inicializa na página home
+// navAjax("bread.html", "#content", true); //Inicializa na página home
 
 function navAjax(url, selector, push = true) {
     if (!url || !selector) return
+    console.log("navigation: ", url);
     const element = document.querySelector(selector)
     fetch(url)
         .then(resp => resp.text())
