@@ -62,6 +62,11 @@
     color: #fff;
 }
 
+.nav-link.text-light.disable-btn {
+    color: gray !important;
+    pointer-events: none;
+}
+
 
 /* -- Produto -- */
 
