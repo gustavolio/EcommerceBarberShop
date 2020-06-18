@@ -1,3 +1,5 @@
+navAjax("home.html", "#content", true); //Inicializa na página home
+
 function navAjax(url, selector, push = true) {
     if (!url || !selector) return
     const element = document.querySelector(selector)
@@ -9,7 +11,7 @@ function navAjax(url, selector, push = true) {
                 history.pushState({ selector }, null, url)
             }
         });
-}
+};
 
 document.querySelectorAll('[nav-link]').forEach(link => {
 
@@ -26,4 +28,4 @@ window.onpopstate = e => {
     if (e.state) {
         navAjax(window.location.href, e.state.selector, false)
     }
-}
+};
