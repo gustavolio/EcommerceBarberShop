@@ -1,4 +1,4 @@
-// navAjax("bread.html", "#content", true); //Inicializa na página home
+// navAjax("home.html", "#content", true); //Inicializa na página home
 
 function navAjax(url, selector, push = true) {
     if (!url || !selector) return

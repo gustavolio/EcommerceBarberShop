@@ -62,6 +62,17 @@
     color: #fff;
 }
 
+.btn-custom-secondary {
+    background-color: #969faa;
+    font-weight: bold;
+    color: #fff;
+}
+
+.btn-custom-secondary:hover {
+    background-color: #28a745;
+    color: #fff;
+}
+
 .nav-link.text-light.disable-btn {
     color: gray !important;
     pointer-events: none;
@@ -87,4 +98,26 @@
 p.prod-price {
     font-size: 1.8rem;
     font-weight: bold;
+}
+
+
+/* -- Modal Login -- */
+
+.modal-form-container {
+    max-width: 270px;
+}
+
+.custom-modal-dialog {
+    max-width: 380px;
+}
+
+.btn-custom-lg {
+    width: 180px;
+}
+
+.modal-title.custom {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    font-size: 1.8rem;
 }
