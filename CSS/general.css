@@ -121,3 +121,51 @@ p.prod-price {
     justify-content: center;
     font-size: 1.8rem;
 }
+
+
+/* -- Product Page -- */
+
+.img-prod-stars-lg {
+    width: 26%;
+    height: auto;
+}
+
+.qtd-text {
+    font-weight: bold;
+    font-size: 12px;
+}
+
+.qtd-btn {
+    background-color: #47525e;
+    color: #fff;
+    font-size: 30px;
+    border-radius: 50%;
+    width: 35px;
+    height: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.qtd-input {
+    max-width: 70px;
+}
+
+.container-description p {
+    text-align: justify;
+}
+
+.product-img {
+    width: 100%;
+    height: auto;
+}
+
+.product-price {
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+.btn-buy {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
