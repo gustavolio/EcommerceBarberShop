@@ -1,0 +1,27 @@
+
+.estrelas input[type=radio] {
+  display: none;
+}
+.estrelas label i.fa{
+  font-size: 200%;
+}
+.estrelas label i.fa:before {
+  content:'\f005';
+  color: #FFBA5C;
+}
+.estrelas input[type=radio]:checked ~ label i.fa:before {
+  color: #CCC;
+}
+.circle {
+  border-radius: 50%;
+  width: 70%;
+  
+  overflow: hidden;
+  position: relative;
+}
+
+.circle img {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
