@@ -1,0 +1,26 @@
+.layout-inline > * {
+    display: inline-block;
+}
+
+ 
+.pro-qty {
+    text-align: center;
+    width: 10%;
+  }
+  
+  a.qty {
+    width: 1em;
+    line-height: 1em;
+    border-radius: 2em;
+    font-size: 2.5em;
+    font-weight: bold;
+    text-align: center;
+    background: #47525E;  
+    color: #fff;
+  }
+  
+  a.qty:hover {
+    background: #47525E;
+  }
+
+  
