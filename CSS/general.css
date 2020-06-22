@@ -178,3 +178,9 @@ p.prod-price {
     width: 100%;
     justify-content: center;
 }
+
+.btn-disabled {
+    pointer-events: none;
+    cursor: default;
+    background-color: darkgray;
+}

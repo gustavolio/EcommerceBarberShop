@@ -35,7 +35,7 @@
                 <div class="collapse navbar-collapse" id="navbarSite">
                     <ul class="navbar-nav mr-auto">
                         <li class="nav-item">
-                            <a href="nobread.html" class="nav-link text-light font-weight-bold active-option" href>Ainda Não Tem Barba?<span class="sr-only">(current)</span></a>
+                            <a href="nobread.html" class="nav-link text-light font-weight-bold" href>Ainda Não Tem Barba?<span class="sr-only">(current)</span></a>
                         </li>
                         <li class="nav-item">
                             <a href="bread.html" class="nav-link text-light " href>Barba</a>
@@ -75,71 +75,48 @@
     <main>
         <section id="content">
             <div class="container my-4">
-                <h2 class="d-flex custom-page-title custom-text-color mb-4">Ainda Não Tem Barba?</h2>
-                <div class="row">
-                    <div class="col-md-3">
-                        <nav aria-label="breadcrumb">
-                            <ol class="breadcrumb">
-                                <li class="breadcrumb-item active" aria-current="page">Home</li>
-                                <li class="breadcrumb-item active" aria-current="page">Ainda Não Tem Barba?</li>
-                            </ol>
-                        </nav>
+                <nav aria-label="breadcrumb">
+                    <ol class="breadcrumb">
+                        <li class="breadcrumb-item active" aria-current="page">Home</li>
+                        <li class="breadcrumb-item active" aria-current="page">Barba</li>
+                        <li class="breadcrumb-item active" aria-current="page">Minoxidil 1</li>
+                    </ol>
+                </nav>
 
-                        <div class="dropdown">
-                            <button class="btn btn-light dropdown-toggle btn-block text-left" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                              Filtrar Por:
-                            </button>
-                            <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                                <a class="dropdown-item" href="#">Menor Preço</a>
-                                <a class="dropdown-item" href="#">Maior preço</a>
-                                <a class="dropdown-item" href="#">Mais relevantes</a>
-                                <a class="dropdown-item" href="#">Favoritos</a>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <img class="product-img" src="imagens/balm1.png" />
+                        </div>
+                        <div class="col-md-6 bg-light">
+                            <h2>Minoxidil 1</h2>
+                            <img class="img-prod-stars-lg" src="imagens/stars.png" />
+                            <p class="product-price custom-text-color my-2">RS 60,00</p>
+                            <p class="custom-text-color qtd-text mt-2" for="exampleInputEmail1">Quantidade:</p>
+                            <form class="form-inline">
+                                <div class="form-group d-flex">
+                                    <button type="button" class="btn qtd-btn">
+                                        <img class="btn-qtd-ico" src="imagens/icon-sub.png"/>
+                                    </button>
+                                    <input type="email" class="form-control qtd-input mx-1" id="exampleInputEmail1" aria-describedby="emailHelp">
+                                    <button type="button" class="btn qtd-btn">
+                                        <img class="btn-qtd-ico" src="imagens/icon-sum.png"/>
+                                    </button>
+                                </div>
+                            </form>
+
+                            <div class="container-description my-3">
+                                <p class="mb-1 custom-text-color">Descrição:</p>
+                                <p class="custom-text-color">Mussum Ipsum, cacilds vidis litro abertis. Posuere libero varius. Nullam a nisl ut ante blandit hendrerit. Aenean sit amet nisi. Manduma pindureta quium dia nois paga. Atirei o pau no gatis, per gatis num morreus. Admodum
+                                    accumsan disputationi eu sit. Vide electram sadipscing et per.</p>
                             </div>
+
+                            <button type="button" class="btn btn-block btn-success btn-buy">Comprar</button>
                         </div>
                     </div>
-                    <div class="col-md-9">
-                        <div class="container">
-                            <div class="container">
-                                <div class="row">
-                                    <!-- Produto -->
-                                    <div class="col-md-6 col-lg-4">
-                                        <div class="card mb-4 shadow-sm">
-                                            <img class="img-prod-size" src="imagens/minoxidil1.png" />
-                                            <div class="card-body bg-light d-flex flex-column align-items-center">
-                                                <h3 class="prod-title">Minoxidil 1</h3>
-                                                <img class="img-prod-stars" src="imagens/stars.png" />
-                                                <p class="prod-price">R$ 60,00</p>
-                                                <a href="minoxidil1.html" class="btn btn-custom btn-block">Comprar</a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <!-- Produto -->
-                                    <div class="col-md-6 col-lg-4">
-                                        <div class="card mb-4 shadow-sm">
-                                            <img class="img-prod-size" src="imagens/minoxidil2.png" />
-                                            <div class="card-body bg-light d-flex flex-column align-items-center">
-                                                <h3 class="prod-title">Minoxidil 2</h3>
-                                                <img class="img-prod-stars" src="imagens/stars.png" />
-                                                <p class="prod-price">R$ 60,00</p>
-                                                <a href="#" class="btn btn-custom btn-block btn-disabled">Indisponível</a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <!-- Produto -->
-                                    <div class="col-md-6 col-lg-4">
-                                        <div class="card mb-4 shadow-sm">
-                                            <img class="img-prod-size" src="imagens/minoxidil3.png" />
-                                            <div class="card-body bg-light d-flex flex-column align-items-center">
-                                                <h3 class="prod-title">Minoxidil 3</h3>
-                                                <img class="img-prod-stars" src="imagens/stars.png" />
-                                                <p class="prod-price">R$ 60,00</p>
-                                                <a href="#" class="btn btn-custom btn-block btn-disabled">Indisponível</a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
+                    <div class="row">
+                        <h2 class="d-flex custom-section-title custom-text-color my-4">Produtos Relacionados</h2>
+                        <!-- Carrousel -->
                     </div>
                 </div>
             </div>
