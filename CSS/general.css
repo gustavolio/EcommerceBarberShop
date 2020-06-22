@@ -137,14 +137,13 @@ p.prod-price {
 
 .qtd-btn {
     background-color: #47525e;
-    color: #fff;
-    font-size: 30px;
     border-radius: 50%;
     width: 35px;
     height: 35px;
     display: flex;
     justify-content: center;
     align-items: center;
+    padding: unset;
 }
 
 .qtd-input {
@@ -168,4 +167,14 @@ p.prod-price {
 .btn-buy {
     font-size: 1.5rem;
     font-weight: bold;
+}
+
+.btn-qtd-ico {
+    width: 100%;
+    height: auto;
+}
+
+.custom-section-title {
+    width: 100%;
+    justify-content: center;
 }
