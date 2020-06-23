@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 
 <head>
     <meta charset="UTF-8">
@@ -21,6 +21,7 @@
     <!-- Custom styles -->
     <link rel="stylesheet" type="text/css" href="css/general.css" />
     <link rel="stylesheet" type="text/css" href="css/home.css" />
+    <link rel="stylesheet" type="text/css" href="css/shoppingcart.css" />
 
 </head>
 
@@ -86,23 +87,20 @@
                 <div>
                     <h2>Carrinho de Compras</h2>
                 </div>
-                <div class="row justify-content-between">
-                    <div class="col-md-4 offset-md-9">
-                        <button type="button" class="btn btn-success" style="width: 70%">Comprar</button>
+                <div class="row justify-content-end">
+                    <div class="col-md-4 d-none d-lg-inline-block">
+                        <button type="button" class="btn btn-success btn-block">Comprar</button>
                     </div>
                 </div>
-                <br>
-                <div class="row">
+                <div class="row mt-2 border-bottom py-3">
                     <div class="col-md-3">
                         <img style="width: 90%" src="imagens/balm1.png" alt="">
                     </div>
                     <div class="col-md-3">
                         <h4 style="color: #47525E; font-size: 18pt;">Shampoo 1</h4>
-                        <h6 style="color: #47525E; font-size: 10pt;">Quantidade</h6>
-                        <div class="layout-inline pt-3 pb-3">
-                            <a href="#" class="mr-1 qty qty-minus">-</a>
-                            <input class="pro-qty mr-1" type="numeric" value="1" />
-                            <a href="#" class="mr-1 qty qty-plus">+</a>
+                        <h6 style="color: #47525E; font-size: 10pt;">Quantidade:</h6>
+                        <div class="layout-inline">
+                            <input class="pro-qty mr-1 custom-input" type="number" value="1" min="0" />
                         </div>
                     </div>
                     <div class="col-md-3"></div>
@@ -110,27 +108,26 @@
                         <h4 style="text-align: center; color: #47525E; font-size: 18pt;">R$ 15,00 </h4>
                     </div>
                 </div>
-                <hr>
-                <div class="row">
+                <div class="row border-bottom py-3">
                     <div class="col-md-6">
                         <h6 style="color: #47525E; font-size: 12pt;">Calcular Frete:</h6>
-                        <input type="numeric" />
-                        <input class="pro-qty mr-1" type="numeric" />
+                        <input type="number" />
+                        <input class="pro-qty mr-1" type="number" />
+                        <input class="btn btn-light" type="submit" value="Calcular" />
                     </div>
                     <div class="col-md-3"></div>
                     <div class="col-md-3">
                         <h4 style="text-align: center; color: #47525E; font-size: 18pt;">R$ 0,00 </h4>
                     </div>
                 </div>
-                <hr>
-                <div class="row justify-content-between">
+                <div class="row justify-content-between py-3">
                     <div class="col-md-3 offset-md-9">
                         <h4 style="text-align: center; color: #47525E; font-size: 18pt; text-align: center;">Total: R$ 15,00 </h4>
                     </div>
                 </div>
-                <div class="row justify-content-between">
-                    <div class="col-md-4 offset-md-9">
-                        <button type="button" class="btn btn-success" style="width: 70%">Comprar</button>
+                <div class="row justify-content-end">
+                    <div class="col-md-4">
+                        <button type="button" class="btn btn-success btn-block">Comprar</button>
                     </div>
                 </div>
             </div>
