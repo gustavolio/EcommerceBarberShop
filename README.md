@@ -1,5 +1,5 @@
 # Ecommerce - Barber Shop
-Protótipo de um e-commerce para venda de produtos para a barba - disciplina IUC - Mestrado ICMC - USP - São Carlos. Disciplina ministrada pela Profa. Dr. Kamilia Rios
+Protótipo de um e-commerce acessível para venda de produtos para a barba - disciplina IUC - Mestrado ICMC - USP - São Carlos. Disciplina ministrada pela Profa. Dr. Kamilia Rios
 
 
 ## Executando o Projeto
