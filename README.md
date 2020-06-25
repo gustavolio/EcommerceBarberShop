@@ -1,6 +1,16 @@
 # Ecommerce - Barber Shop
 Protótipo de um e-commerce acessível para venda de produtos para a barba - disciplina IUC - Mestrado ICMC - USP - São Carlos. Disciplina ministrada pela Profa. Dr. Kamilia Rios
 
+## Caminho de Teste (Caminho Feliz)
+1. Na home page clicar no icone de usuário no canto superior direito;
+2. No modal de login clicar no botão "Cadastrar-se";
+3. Preencher os dados para cadastro;
+4. Clicar em finalizar;
+5. No menu de navegação principal clicar na aba "Barba";
+6. Selecionar o produto "Shampoo 1" clicando em comprar;
+7. Logo em seguida o carrinho se abrirá com o produto selecionado;
+8. Clicar na logo para retornar a home;
+9. Clicar no botão Alto Contraste;
 
 ## Executando o Projeto
 
